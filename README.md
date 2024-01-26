@@ -1,4 +1,4 @@
-# metavserse-edu-workshop 講義ノート
+# メタバースゲームクリエイターワークショップ 講義ノート
 ## 参加方法
 Zoom
 ### 接続先(Zoom)
