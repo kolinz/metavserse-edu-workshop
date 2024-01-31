@@ -1,4 +1,4 @@
-# メタバースゲームクリエイターワークショップ講義ノート
+# 講義ノート
 ![2024年2月8日メタバースゲームクリエイターワークショップちらし](https://github.com/kolinz/metavserse-edu-workshop/blob/main/leaflet-metaversecreatorworkshop-20240208.png)
 ## 参加方法
 Zoom
