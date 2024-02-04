@@ -53,7 +53,9 @@ Spatialで指定するUnityのバージョンのインストールと、Spatial�
 7. 「Continue」をクリック
 8. 画面指示に従って、各種利用規約への同意などの操作を行う。チェックして「Install」ボタンをクリック。画面指示に従って操作していく。Windows環境では、Visual Studioのインストールが必要になる。これもパソコンに表示される指示に従って操作が必要。
 9. 「Unity Hub」の画面に、「Unity 2021.3.21」が表示され、「Install Complete」と表示される。「Unity 2021.3.21」をクリックすると、下図のように表示される。「WebGL Build Support」が入っていればOK。下図は、Windows環境の場合。
+
 ![image](https://github.com/kolinz/metavserse-edu-workshop/assets/16685896/456a5543-20c5-40d8-a12f-d3cce5c4e0d1)
+
 #### Step2-3.Spatialクリエイターツールキットを含むスターターテンプレートのダウンロード
 1. Webブラウザで、https://docs.spatial.io/installation にアクセス。
 2. 「Click here to download the starter template.」をクリックする。
