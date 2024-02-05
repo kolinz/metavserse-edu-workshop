@@ -109,5 +109,6 @@ Spatialで指定するUnityのバージョンのインストールと、Spatial�
 Webbブラウザで、Spatial sandboxのタブを閉じます。
 
 ### Step3. Unity Aseet Storeの利用とアセットインポート
-
+1. Webブラウザで、Unityアセットストアにアクセスします。https://assetstore.unity.com/ja?locale=ja-JP
+2. 
 
