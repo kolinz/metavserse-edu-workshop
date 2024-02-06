@@ -131,7 +131,7 @@ Gaz 66というミリタリートラックの例に、Unityアセットストア
 #### Step3-1. Unityアセットストアの利用とインポート
 1. Webブラウザで、Unityアセットストアにアクセスします。https://assetstore.unity.com/ja?locale=ja-JP
 2. Unityアセットストアから、各種素材を入手することができます。いろいろと検索してみましょう。
-3. 「Gaz 66」で検索します。表示されたモデルをクリックします。直接アクセスしたい場合は、https://assetstore.unity.com/packages/3d/vehicles/land/gaz-66-91665 にアクセスしてください。
+3. 「Gaz 66」で検索します。表示されたアセットをクリックします。直接アクセスしたい場合は、https://assetstore.unity.com/packages/3d/vehicles/land/gaz-66-91665 にアクセスしてください。
 4. 「Add to My Assets」をクリックします。
 5. Unity IDでUnityアセットストアにログインしていない場合は、ログインを求められるのでログインします。
 6. ログイン後、「Add to My Assets」をクリックします。
@@ -160,4 +160,4 @@ Gaz 66というミリタリートラックの例に、Unityアセットストア
 6. 「Shader」が「Universal Render Pipeline/Lit」になる。
 ![image](https://github.com/kolinz/metavserse-edu-workshop/assets/16685896/c19aa766-1864-46b7-8d59-1547043a2462)
 #### Step3-3.Spatial Sandboxで動作確認
-画面右上の「Test Active Scene」をクリックし、検証環境のSpatial Sandboxで動作を確認します。
+画面右上の「Test Active Scene」をクリックし、検証環境のSpatial Sandboxで動作を確認します。この時点では、トラックはゴルフカートの横に置かれているだけで運転はできません。
