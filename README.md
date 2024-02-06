@@ -1,5 +1,8 @@
 # 実施概要
 ポスター記載の「接続先情報・講義ノート」のURLは、現在表示中のGithubのコンテンツです。
+# メタバース上で自動車を走らせるようになるとどんなことができるか
+メタバース上に構築した街や観光施設、公園などを自動車で走るゲーム開発やメタバース観光。
+# 告知ポスター
 ![2024年2月8日メタバースゲームクリエイターワークショップちらし](https://github.com/kolinz/metavserse-edu-workshop/blob/main/leaflet-metaversecreatorworkshop-20240208.png)
 # 接続先情報
 ## 参加方法
