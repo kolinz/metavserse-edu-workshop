@@ -65,8 +65,9 @@ Spatialで指定するUnityのバージョンのインストールと、Spatial�
 6. 「Add Module」の「WebGL Build Support」を忘れずにチェックする
 7. 「Continue」をクリック
 8. 画面指示に従って、「I have read and agree with the above terms and conditions」にチェックを入れて、「Install」ボタンをクリック。
-9. 画面指示に従って操作していく。Windows環境では、Visual Studioのインストールが必要になる。これもパソコンに表示される指示に従って操作が必要。
-10. 「Unity Hub」の画面に、「Unity 2021.3.21」が表示され、「Install Complete」と表示される。「Unity 2021.3.21」をクリックすると、下図のように表示される。「WebGL Build Support」が入っていればOK。下図は、Windows環境の場合。
+9. 画面指示に従って操作していく。Windows環境の場合は、Visual Studio Communityのインストールも必要になる。しばらくすると「Visual Studio Installer」が起動するので、Visual Studio Communityをインストールする。
+10. 「Visual Studioにサインイン」が表示される。「後で行う。」をクリック。Visual Studio自体は閉じてかまわない。
+11. 「Unity Hub」の画面に、「Unity 2021.3.21」が表示され、「Install Complete」と表示される。「Unity 2021.3.21」をクリックすると、下図のように表示される。「WebGL Build Support」が入っていればOK。下図は、Windows環境の場合。
 
 ![image](https://github.com/kolinz/metavserse-edu-workshop/assets/16685896/456a5543-20c5-40d8-a12f-d3cce5c4e0d1)
 #### Step2-3.Spatialクリエイターツールキットを含むスターターテンプレートのダウンロード
@@ -74,18 +75,18 @@ Spatialで指定するUnityのバージョンのインストールと、Spatial�
 2. Starter Template下の「Click here to download the starter template.」をクリックする。
 3. 「spatial-unity-starter-template-main.zip」のダウンロードを開始する。
 #### Step2-4.Spatialクリエイターツールキットを含むスターターテンプレートのインポート
-1. ダウンロードした「「spatial-unity-starter-template-main.zip」を任意の場所に展開（解凍）する。ドキュメント（書類）フォルダなど、覚えやすい場所が良い。
+1. ダウンロードした「spatial-unity-starter-template-main.zip」を任意の場所に展開（解凍）する。ドキュメント（書類）フォルダなど、覚えやすい場所が良い。
 2. 「spatial-unity-starter-template-main」が展開される。
 3. Unity Hubの画面に切り替える。
 4. 「Projects」の画面で、「Add」をクリック。
-5. 展開（解凍）した「spatial-unity-starter-template-main」フォルダを選び、「Open」をクリック。
-6. 「Unity Package Manager」により、Spatialクリエイターツールキットを含むスターターテンプレートのインポートが始まる。
-7. Unityが起動する。
-8. 「Upgrade to latest version?」のメッセージが表示される。
-9. メッセージに「A new veersion of Spatial SDK is available...」と表示されている場合は、「Yes」をクリック。
-10. 「Upgrade successful」を表示されるので、「OK」をクリック。
-11. 「Unity Editor Update Check」の画面が表示された場合は、「Check for Updates」のチェックを外す。その後、「Skip new version」をクリック。
-12. Unityで作業ができるようになる。
+5. 展開（解凍）した「spatial-unity-starter-template-main」フォルダを選び、ダブルクリック。
+6. 「Open」をクリック。
+7. 「Unity Package Manager」により、Spatialクリエイターツールキットを含むスターターテンプレートのインポートが始まる。
+8. Unityが起動する。
+9. 「Upgrade to latest version?」のメッセージが表示される。メッセージに「A new veersion of Spatial SDK is available...」と表示されている場合は、「Yes」をクリック。
+11. 「Upgrade successful」を表示されるので、「OK」をクリック。
+12. 「Unity Editor Update Check」の画面が表示された場合は、「Check for Updates」のチェックを外す。その後、「Skip new version」をクリック。
+13. Unityで作業ができるようになる。
 以後、Unity Hubの「Projects」で、「spatial-unity-starter-template-main」をクリックすれば、Spatial向けのUnity作業ができるようになる。
 #### Step2-5.サンプルプロジェクトを使ったSpatialクリエイターツールキットの動作確認
 ゴルフカートを運転できるサンプルプロジェクトを使って、動作確認をします。ゴルフカートを運転できるサンプルプロジェクトをもとに、運転する自動車を変更したり、建物を追加して運転しながら観光するようなコンテンツに発展させても良いでしょう。
