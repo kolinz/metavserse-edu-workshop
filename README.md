@@ -150,14 +150,28 @@ Gaz 66というミリタリートラックの例に、Unityアセットストア
 19. 「Gaz 66」のモデル（GAZ-66.fbx）を、ゴルフカートの隣にドラッグ&ドロップ。例として下図のように配置。
 
 ![image](https://github.com/kolinz/metavserse-edu-workshop/assets/16685896/89e7dd5f-39fd-473c-973e-2de5a337b9dc)
-#### Step3-2. モデルのテクスチャ（視覚的効果を与えるための動画や画像ファイル）変更
+#### Step3-2. Shaderの変更
 1. 上の図のような状態から始めます。
 2. 「Mterials」フォルダをダブルクリック。
-3. 「GZ-66」のマテリアル（GAZ-66.mat）をクリック。
+3. 「GAZ-66」のマテリアル（GAZ-66.mat）をクリック。
 4. 画面右側の「Inspector」タブに「GAZ-66(Materials)」が表示される。
 ![image](https://github.com/kolinz/metavserse-edu-workshop/assets/16685896/c6794dcd-e2fd-490e-83f2-972a02fbcd57)
 5. 「Shader」の「Standard（Specular setup)」をクリックし、「Universal Render Pipeline」下の「Lit」をクリック。
-6. 「Shader」が「Universal Render Pipeline/Lit」になる。
-![image](https://github.com/kolinz/metavserse-edu-workshop/assets/16685896/c19aa766-1864-46b7-8d59-1547043a2462)
-#### Step3-3.Spatial Sandboxで動作確認
+6. 「Shader」が「Universal Render Pipeline/Lit」に切り替わる。 
+#### Step3-3. テクスチャマッピングの実施
+1. 「Mterials」フォルダの親である「GAZ-66」フォルダに戻る。
+2. 「GAZ-66(GAZ-66.fbx)」をクリック
+3. 画面右上の「Inspector」に、「GAZ-66 Import Settings」が表示される。
+4. 「Materials」タブをクリック
+5. 「Material Creation Mode」を「Import via MaterialDescription」に切り替える。
+6. 「Location」を「Use Embedded Materials」に切り替える。
+7. 「Extract Materials...」をクリック。
+8. 「GAZ-66」フォルダ内の「Texture」フォルダを選び、「フォルダの選択」をクリック。<< Windowsの場合
+9. 「Are you sure you want to re-extract Materials?」のメッセージが表示されるので、「Yes」をクリック。
+10. ミリタリートラック「GAZ-66」に、「Texture」フォルダ内のGAZ-66（GAZ-66.tga）テクスチャが貼り付けられる。
+![image](https://github.com/kolinz/metavserse-edu-workshop/assets/16685896/5badaf9c-f103-4a4b-ab39-433d5bd063e0)
+
+#### Step3-4.Spatial Sandboxで動作確認
 画面右上の「Test Active Scene」をクリックし、検証環境のSpatial Sandboxで動作を確認します。この時点では、トラックはゴルフカートの横に置かれているだけで運転はできません。
+![image](https://github.com/kolinz/metavserse-edu-workshop/assets/16685896/ca390e62-b776-4014-acbd-62869fafc211)
+
