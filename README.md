@@ -38,11 +38,24 @@ Spatialで指定するUnityのバージョンのインストールと、Spatial�
 1. https://unity.com/ja/pricing#plans-student-and-hobbyist にアクセス。個人利用の無料版を使うので、「個人」の「始める」をクリック。
 2. 「Unity Hub」をダウンロードする。ほとんどの人は、「Windows用ダウンロード」または「Mac用ダウンロード」をクリックするはず。UbuntuなどLinux関係は「Linux用ダウンロード」をクリック。
 3. ダウンロードしたファイルを使い、Unity Hubをインストール。画面の指示に従ってインストール作業を実施。インストール完了後、Unity Hubを起動。
-5. 「Welcome to Unity Hub」画面が表示される。
-##### Step2-1-1a.Unity IDを持っていない場合
-「Create Account」をクリックして、画面指示に従ってUnity IDを作成し、Unity Hubで、「Projects」や「Installs」といったメニューが表示される状態にする。
-##### Step2-1-1b.Unity IDを持っている場合
-「Sign in」をクリックして、ログインする。Unity Hubで、「Projects」や「Installs」といったメニューが表示される状態にする。
+4. 「Welcome to Unity Hub」が表示される。
+##### Step2-1-2.Unity IDの作成
+1. 「Create Account」をクリックする。
+2. 「Create a Unity ID」が表示される。画面指示に従ってUnity IDを作成する。メールアドレス、パスワード、ユーザー名、フルネーム、各種利用規約へのチェック、私はロボットではありませんにチェックし、「Create a Unity ID」をクリックする。
+3. 「Confirm your Email」が表示される。
+4. 「Confirm your email address」という件名のメールが届くので、メール本文中のLink to confirm emailをクリックする。
+5. 「Need to verify to continue」が表示される。私はロボットではありませんにチェックを入れ、「Verify」をクリックする。
+6. 「Confirm your Email」が表示されている画面に戻り、「Continue」をクリックする。
+7. 「My Account Settings」が表示される。これで、Unity IDは作成できた。
+##### Step2-1-3.Unity IDを持っている、または作成後
+1. 「Unity Hub」の画面で「Sign in」をクリックする。
+2. Webブラウザで、このサイトは、Unity Hubを開こうとしていますと表示されるので、「開く」をクリックする。
+3. 「Install Unity Editor」が表示される。Spatial指定のバージョンのUnityをインストールするため、画面右下の「Skip installation」をクリックする。
+4. 「No activate licences」が表示されているはず。表示されている場合は、「Manage licences」をクリックする。
+5. 「Licences」画面となる。「Add」をクリック。
+6. 「Get a free personal licences」をクリック。
+7. 「Agree and get personal edition licence」をクリック。
+8. 「Licences」画面に、「Personal」が追加される。これで無料利用ができる。
 #### Step2-2. Spatial指定の「Unity 2021.3.21」のインストール
 1. Webブラウザで、https://unity.com/releases/editor/archive にアクセスする。
 2. 「Unity 2021.X」タブをクリック
@@ -51,8 +64,9 @@ Spatialで指定するUnityのバージョンのインストールと、Spatial�
 5. 「Unity Hubを開く」をクリック
 6. 「Add Module」の「WebGL Build Support」を忘れずにチェックする
 7. 「Continue」をクリック
-8. 画面指示に従って、各種利用規約への同意などの操作を行う。チェックして「Install」ボタンをクリック。画面指示に従って操作していく。Windows環境では、Visual Studioのインストールが必要になる。これもパソコンに表示される指示に従って操作が必要。
-9. 「Unity Hub」の画面に、「Unity 2021.3.21」が表示され、「Install Complete」と表示される。「Unity 2021.3.21」をクリックすると、下図のように表示される。「WebGL Build Support」が入っていればOK。下図は、Windows環境の場合。
+8. 画面指示に従って、「I have read and agree with the above terms and conditions」にチェックを入れて、「Install」ボタンをクリック。
+9. 画面指示に従って操作していく。Windows環境では、Visual Studioのインストールが必要になる。これもパソコンに表示される指示に従って操作が必要。
+10. 「Unity Hub」の画面に、「Unity 2021.3.21」が表示され、「Install Complete」と表示される。「Unity 2021.3.21」をクリックすると、下図のように表示される。「WebGL Build Support」が入っていればOK。下図は、Windows環境の場合。
 
 ![image](https://github.com/kolinz/metavserse-edu-workshop/assets/16685896/456a5543-20c5-40d8-a12f-d3cce5c4e0d1)
 #### Step2-3.Spatialクリエイターツールキットを含むスターターテンプレートのダウンロード
