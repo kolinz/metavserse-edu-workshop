@@ -94,7 +94,7 @@ Spatialで指定するUnityのバージョンのインストールと、Spatial�
 ![image](https://github.com/kolinz/metavserse-edu-workshop/assets/16685896/9e57f63d-78ad-4909-b7a4-2116c9f72e43)
 
 ##### Step2-5-1.ゴルフカートドライビングの起動
-1. 画面左下の「Project」タブで、「Assets」下の「Examples」をダブルクリック。
+1. 画面左下の「Project」タブで、「Assets」下の「Examples」をクリック。
 2. 「Sapce_GolfCourse_Driving」をダブルクリック。
 3. 「Scenes」をダブルクリック。
 4. 立方体のようなアイコンの「GolfCouseDriving.unity」をダブルクリック。
@@ -127,6 +127,37 @@ Spatialで指定するUnityのバージョンのインストールと、Spatial�
 Webbブラウザで、Spatial sandboxのタブを閉じます。
 
 ### Step3. Unity Aseet Storeの利用とアセットインポート
+Gaz 66というミリタリートラックの例に、Unityアセットストアから探し、インポートするまでの手順です。Unityアセットストア経由で、建物なども入手できます。
+#### Step3-1. Unityアセットストアの利用とインポート
 1. Webブラウザで、Unityアセットストアにアクセスします。https://assetstore.unity.com/ja?locale=ja-JP
-2. 
+2. Unityアセットストアから、各種素材を入手することができます。いろいろと検索してみましょう。
+3. 「Gaz 66」で検索します。表示されたモデルをクリックします。直接アクセスしたい場合は、https://assetstore.unity.com/packages/3d/vehicles/land/gaz-66-91665 にアクセスしてください。
+4. 「Add to My Assets」をクリックします。
+5. Unity IDでUnityアセットストアにログインしていない場合は、ログインを求められるのでログインします。
+6. ログイン後、「Add to My Assets」をクリックします。
+7. 「Terms of Service（利用規約）」が表示されるので、「Accept」をクリックします。もとの画面に戻るまで待ちます。
+8. 画面右上のハートマークのアイコンの左隣にある「My Assets」のアイコンをクリックします。
+9. 「My Assets」画面が表示されます。
+10. 「Gaz 66」の行で、「Open in Unity」をクリックします。
+11. 「Unity Editorを開く」をクリックします。
+12. Unity画面内で「Package Manager」が表示されます。
+13. 「Package Manager」内で「Gaz 66」をクリックします。その後、右下の「Download」をクリックします。「Download」が「Re-Download」に表示が変わります。
+14. 「Re-Download」の左隣に表示されている「Import」をクリックします。
+15. 画面右側に「Import Unity Package」として「Gaz 66」モデル情報が表示されます。右下の「Import」をクリックします。
+16. 「Package Manager」を閉じます。
+17. 画面左下の「Project」タブで、「Assets」下の「Package」をクリック。
+18. 「Gaz 66」と書かれたフォルダをダブルクリック。
+19. 「Gaz 66」のモデル（GAZ-66.fbx）を、ゴルフカートの隣にドラッグ&ドロップ。例として下図のように配置。
 
+![image](https://github.com/kolinz/metavserse-edu-workshop/assets/16685896/89e7dd5f-39fd-473c-973e-2de5a337b9dc)
+#### Step3-2. モデルのテクスチャ（視覚的効果を与えるための動画や画像ファイル）変更
+1. 上の図のような状態から始めます。
+2. 「Mterials」フォルダをダブルクリック。
+3. 「GZ-66」のマテリアル（GAZ-66.mat）をクリック。
+4. 画面右側の「Inspector」タブに「GAZ-66(Materials)」が表示される。
+![image](https://github.com/kolinz/metavserse-edu-workshop/assets/16685896/c6794dcd-e2fd-490e-83f2-972a02fbcd57)
+5. 「Shader」の「Standard（Specular setup)」をクリックし、「Universal Render Pipeline」下の「Lit」をクリック。
+6. 「Shader」が「Universal Render Pipeline/Lit」になる。
+![image](https://github.com/kolinz/metavserse-edu-workshop/assets/16685896/c19aa766-1864-46b7-8d59-1547043a2462)
+#### Step3-3.Spatial Sandboxで動作確認
+画面右上の「Test Active Scene」をクリックし、検証環境のSpatial Sandboxで動作を確認します。
