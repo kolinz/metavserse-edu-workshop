@@ -83,13 +83,16 @@ Spatialで指定するUnityのバージョンのインストールと、Spatial�
 6. 「Open」をクリック。
 7. 「Unity Package Manager」により、Spatialクリエイターツールキットを含むスターターテンプレートのインポートが始まる。
 8. Unityが起動する。
-9. 「Upgrade to latest version?」のメッセージが表示される。メッセージに「A new veersion of Spatial SDK is available...」と表示されている場合は、「Yes」をクリック。
+9. 「Upgrade to latest version?」のメッセージが表示される。メッセージに「A new veersion of Spatial SDK is available.Would you like to upgrade now ?」と表示されている場合は、「Yes」をクリック。
 11. 「Upgrade successful」を表示されるので、「OK」をクリック。
 12. 「Unity Editor Update Check」の画面が表示された場合は、「Check for Updates」のチェックを外す。その後、「Skip new version」をクリック。
-13. Unityで作業ができるようになる。
-以後、Unity Hubの「Projects」で、「spatial-unity-starter-template-main」をクリックすれば、Spatial向けのUnity作業ができるようになる。
+13. Spatialクリエイターツールキットを含むスターターテンプレートがUnityのプロジェクトとなり、Unityで作業ができるようになる。
+
+以後、作業を行う際にはUnity Hubの「Projects」で、「spatial-unity-starter-template-main」をクリックすれば、Spatial向けのUnity作業ができるようになる。
 #### Step2-5.サンプルプロジェクトを使ったSpatialクリエイターツールキットの動作確認
 ゴルフカートを運転できるサンプルプロジェクトを使って、動作確認をします。ゴルフカートを運転できるサンプルプロジェクトをもとに、運転する自動車を変更したり、建物を追加して運転しながら観光するようなコンテンツに発展させても良いでしょう。
+![image](https://github.com/kolinz/metavserse-edu-workshop/assets/16685896/9e57f63d-78ad-4909-b7a4-2116c9f72e43)
+
 ##### Step2-5-1.ゴルフカートドライビングの起動
 1. 画面左下の「Project」タブで、「Assets」下の「Examples」をダブルクリック。
 2. 「Sapce_GolfCourse_Driving」をダブルクリック。
@@ -101,7 +104,7 @@ Spatialで指定するUnityのバージョンのインストールと、Spatial�
 8. 「Spatial Portal」の画面がUnity内に表示される。
 9. 「Get Login Token」をクリック。
 10. Webブラウザが起動し、Spatialのアカウント画面が表示される。
-11. 「Creator Toolkit Access Token」と表示されている場所で、「Copy to Clipboard」をクリック。
+11. 「Your Account」画面に「Creator Toolkit Access Token」と表示されている場所で、「Copy to Clipboard」をクリック。
 12. Unityの画面に戻り、「Spatial Portal」内の「Paste Login Token」をクリック。
 13. 「Spatial Portal」内に「Logged In」と表示される。
 14. Unityの画面内の「Spatial Portal」を閉じる。「X」を押す。
@@ -111,12 +114,12 @@ Spatialで指定するUnityのバージョンのインストールと、Spatial�
 ![image](https://github.com/kolinz/metavserse-edu-workshop/assets/16685896/3c1f4d57-1241-409b-9d9c-fcc5221fade4)
 
 ##### Step2-5-2.ゴルフカートドライビングをSpatial sandboxで操作してみる
-- アバターを操作して、ゴルフカートの側（そば）に移動します。「Drive」と表示されるので「F」キーを押すと運転手席に座ります。
-- 「W」キーで前進、「S」キーで後退です。
-- 「W」キーを押しながら「A」キーで左折、「D」キーで右折ができます。「W」キーの代わりに「S」キーを押しながらであれば、「A」キーで左バック、「D」キーで右バックができます。
-- 運転を終える時は、「F」キーを押します。
-- 再び運転するときは「Sit」が表示されていれば「F」キーを押せば、運転を再開できます。
-- 自動車から離れた場合は、再び自動車の近くで「Drive」が表示されるので、「F」キーを押すことで運転ができます。
+- アバターを操作して、ゴルフカートの運転手席の側（そば）に移動します。「Drive」と表示されるので「F」キーを押すと運転が可能になる。
+- 「W」キーで前進、「S」キーで後退。
+- 「W」キーを押しながら「A」キーで左折、「D」キーで右折。「W」キーの代わりに「S」キーを押しながらであれば、「A」キーで左バック、「D」キーで右バック。
+- 運転を終える時は、「Exit」と表示されている状態で「F」キーを押す。運転手席に移動すれば「Drive」と表示され、「F」キーを押すことで運転が可能になる。
+- 運転手席以外では、「Sit」と表示されている状態で「F」キーを押すことで席に座ることができる。
+- 自動車から離れた場合は、再び自動車の運転手席付近で「Drive」が表示されるので、「F」キーを押すことで運転ができる。
 
 ![image](https://github.com/kolinz/metavserse-edu-workshop/assets/16685896/ba9cd8fb-b8d2-48d6-ae8f-b702e6ac6e56)
 
